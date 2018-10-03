@@ -26,6 +26,8 @@ public class lottery {
             System.out.print("số thứ hai: ");
             num2 = sc.nextLine();
         }
+        System.out.println("Đang quay giải nè...");
+        System.out.println("Số trúng thưởng là: "+lottery);
 
         if (num1.equals(lottery) ||
                 (num2.equals(lottery))) {
